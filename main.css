@@ -85,7 +85,7 @@
   }
   
   .fa-primary {
-    color: ;
+    color: white ;
   }
   
   .fa-secondary {
@@ -214,3 +214,7 @@
   .solar #solarIcon {
     display: block;
   }
+
+.main-content{
+    text-align: center;
+}
