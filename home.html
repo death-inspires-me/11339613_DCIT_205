@@ -13,6 +13,36 @@
     </head>
 
     <body>
+        <div class="header" id="myHeader">
+            <h1><img src="ugcslogo.png" alt="ugcs logo" width="300"></h1>
+          </div>
+
+          <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+              } else {
+                header.classList.remove("sticky");
+              }
+            }
+            </script>
+
+        <div>
+
+            <div><h1>About</h1></div>
+            <div><h1>Programmes</h1></div>
+            <div><h1>Timetables</h1></div>
+            <div><h1>Events</h1></div>
+            <div><h1>Resources</h1></div>
+            <div><h1>Help and Support</h1></div>
+            <div><h1>Social</h1></div>
+
+           
         
     </body>
 </html>
