@@ -3,8 +3,8 @@
     font-family: 'Open Sans';
     --text-primary: #ffffff;
     --text-secondary: #000000;
-    --bg-primary: #010165;
-    --bg-secondary: #ffffff;
+    --bg-primary: #ffffff;
+    --bg-secondary: #010165;
     --transition-speed: 100ms;
   }
   
@@ -35,7 +35,7 @@
   .navbar {
     position: fixed;
     background-color: var(--bg-primary);
-    transition: width 300ms ease;
+    transition: width 200ms ease;
     overflow: visible;
   }
   
@@ -51,6 +51,7 @@
   
   .nav-item {
     width: 100%;
+    text-align: left;
   }
   
   .nav-item:last-child {
@@ -217,4 +218,8 @@
 
 .main-content{
     text-align: center;
+}
+
+.navicons{
+    margin-left: 20px;
 }
