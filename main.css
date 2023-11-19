@@ -22,10 +22,6 @@ html{
     background: #010165;
   }
   
-  main {
-    margin-left: 5rem;
-    padding: 1rem;
-  }
   
   .navbar {
     position: fixed;
@@ -414,3 +410,49 @@ a:hover{
 strong{
   margin: 10px;
 }
+
+.aboutus{
+  text-align: center;
+}
+
+main {
+  backdrop-filter: blur(10px);
+  margin: 100px;
+  outline-color: white;
+  outline-style: groove;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.welcometxt{
+  line-height: 1.6;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#goldbitch{
+  color: #bd9d6c;
+}
+
+.ourorg,.ourcom,.dislearn,.buildingour{
+  display: inline-flex;
+  text-align: left;
+}
+
+.aboutimg{
+  border-radius: 8px;
+  margin: 30px;
+}
+
+.ourorgtxt,.ourcomtxt,.dislearntxt,.buildingourtxt{
+  text-align: justify;
+  padding: 40px;
+  line-height: 1.6;
+}
+
+.aboutvid{
+  border-radius: 8px;
+}
+
