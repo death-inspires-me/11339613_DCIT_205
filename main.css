@@ -1,12 +1,7 @@
-/*:root {
-    font-size: 16px;
-    font-family: 'Open Sans';
-    --text-primary: #ffffff;
-    --text-secondary: #000000;
-    --bg-primary: #ffffff31;
-    --bg-secondary: #ffffff8a;
-    --transition-speed: 100ms;
-  }*/
+html{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
   
   body {
     color: black;
@@ -38,7 +33,7 @@
     transition: width 200ms ease;
     overflow: visible;
 
-    z-index: 1;
+    z-index: 100;
    
   }
   
@@ -81,6 +76,11 @@
     border-bottom-left-radius: 0px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+  }
+
+  .navbutton:hover {
+    background-color: white;
+
   }
   
   
@@ -127,6 +127,8 @@
   background-color: white;
   color: #f1f1f1;
   outline: groove;
+
+  z-index: 50;
 
 }
 
@@ -176,12 +178,12 @@ button{
 .main-content{
     text-align: center;
     margin: 100px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .navicons{
     margin: 15px;
 }
+
 
 .tooltip {
     position: relative;
@@ -208,18 +210,49 @@ button{
   }
 
 h1 {
-    color: #010165;
+    color: white;
+    margin-bottom: 100px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+
+}
+
+.aboutelements{
+  display: inline-flex;
+  outline-style: groove;
+  outline-color: white;
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 8px;
+  margin: 40px;
+  
+}
+
+.img1{
+  border-radius: 12px;
+  margin-top: 25px;
+  outline-style: groove;
+  outline-color: white;
+  
 }
 
 .section-text{
   font-size: 20px;
-  color: gray;
-  outline: groove;
-  outline-color: lightgray;
-  border-radius: 7px;
-  padding: 20px;
-  background-color: white;
+  color: white;
+  background-color: none;
+  padding: 5px;
+  position: relative;
+  text-align: left;
+  margin-left: 30px;
+  line-height: 1.6;
+  
+  
+}
+
+.section-text:hover{
+  color: #bd9d6c;
+  cursor: pointer;
 }
 
 
@@ -249,4 +282,135 @@ h1 {
 #myBtn:hover {
   background: #ddd;
   color: black;
+}
+
+#about-sec{
+  background: none;
+  width: 600px;
+  position: relative;
+  right: 100px;
+}
+
+.aboutbutton{
+  background: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 35px;
+  padding-right: 20px;
+  padding-left: 20px;
+  outline-style: groove;
+  outline-width: 2px;
+  outline-color: white;
+  position: relative;
+}
+
+.programbutton{
+  background: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 35px;
+  padding-right: 20px;
+  padding-left: 20px;
+  outline-style: groove;
+  outline-width: 2px;
+  outline-color: white;
+  position: relative;
+}
+
+.aboutbutton:hover,.programbutton:hover{
+  background-color: white;
+  outline-color: #bd9d6c;
+  color: #010165;
+  animation-name: bounce;
+}
+
+.coursetypes{
+  display: inline-flex;
+}
+.programcards{
+  margin: 20px;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 13px;
+  width: 250px;
+  height: 190px;
+  top: 500px;
+  background: none;
+  outline-style: groove;
+  outline-color: white;
+  backdrop-filter: blur(15px);
+  
+}
+
+.programcards:hover{
+  cursor: pointer;
+}
+
+.scname{
+  background-color: #bd9d6c;
+  font-size: 20px;
+  padding: 5px;
+  color: white;
+}
+
+.scname:hover{
+  background-color: #bd9d6c;
+  cursor: pointer;
+}
+
+.sctext{
+  color: white;
+}
+
+.sctext:hover{
+  color: #bd9d6c;
+}
+
+.readmore{
+  color: #bd9d6c;
+}
+
+.readmore:hover{
+  cursor: pointer;
+}
+
+
+footer{
+  margin-left: 200px;
+  margin-bottom: 100px;
+  backdrop-filter: blur(10px);
+  outline: white;
+  outline-style: groove;
+  border-radius: 8px;
+  padding: 20px;
+  color: white;
+  display: inline-flex;
+  line-height: 1.9;
+}
+
+
+a:link{
+  margin-top: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+a:visited{
+  margin-top: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #bd9d6c;
+  text-decoration: none;
+}
+
+.Admissions,.Research,.ContactUs,.location{
+  margin: 20px;
+
+}
+
+strong{
+  margin: 10px;
 }
