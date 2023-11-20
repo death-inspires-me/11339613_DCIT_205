@@ -6,7 +6,6 @@
         <meta name="keyword" content="University of Ghana Computer Science Department">
         <meta name="description" content="website for the University of Ghana Computer Science Department">
         <meta name="author" content="Nana Mewiedela Yentumey - 11339613">
-        <meta http-equiv="refresh" content="60">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="main.css">
         <title>UG | Computer Science</title>
@@ -16,6 +15,7 @@
             background-image: url(study-group-african-people.jpg);
           }
         </style>
+        <link rel="stylesheet" href="collapsibles.css">
         
         
 </head>
@@ -89,6 +89,8 @@
 
 <script src="header.js"></script>
 
+<div class="aboutus"><h1>Insight Into Ph.D. Programmes</h1></div>
+
 <main>
   <div><a href="programmes.html"><button class="programbutton"><h2>PROGRAMMES</h2></button></a></div>
   <div class="coursetypes">
@@ -101,12 +103,88 @@
 </main>
 
 <main>
-  
+  <h2><strong id="goldbitch">Ph.D. programmes</strong></h2>
+  <hr>
+<div class="shortcp">
+  <div class="ourcom">
+    <img src="phd.jpg" alt="phd student" class="mphilimg">
+    <p class="ourcomtxt">
+      Our doctoral programme is a full-time research programme with expected duration of 4-years. For the successful completion of this programme, a high level of commitment is required.
+
+Students are therefore expected to reside close to the University and be a full-time participant in the program. With guidance from postgraduate committee, Ph.D. students will create a personalized program of study that includes a major area of specialization and at least two minor areas of specialization.
+
+In addition to coursework, the department holds regular seminars where students and faculty review and critique research in the field. To foster prudent critique, students are expected to join at most one research lab and participate in research activities carried out by the group. The research areas of the department are Intelligent Space and Machine Learning, Data Science/Big Data Analytics, Networking and Communications Engineering, and Cyber Security.  </div>
+</div>
 </main>
+
+<main class="collapsection">
+  <div class="cssect">
+    <h2 class="title">COURSE STRUCTURE</h2>
+    
+    <div class="shortcp">
+    <div>
+      <button class="collapsible">Year 1</button>
+  <div class="content">
+    <h3>First Semester</h3>
+    <ul>
+      <li>FASC 701	Science and Society (Faculty Wide)</li>
+      <li>FASC 700	Special Topics in Science</li>
+      Electives:
+      <li>CSCD 721	Grand Research Challenges in Computer Science</li>
+      <li>CSCD 723	Emerging Database Models</li>
+      <li>CSCD 725	Research in Bioinformatics and Computational Biology</li>
+      <li>CSCD 727	Ubiquitous Computing</li>
+      </ul>
+      
+      <h3>Second Semester</h3>
+      <ul>
+        <li>CSCD 722	New Developments in Cyber Security and Networks</li>
+        <li>FASC 702	Advanced Quantitative Research Methods</li>
+        <p>Electives:</p>
+        <li>CSCD 724	New Developments in Computer Architecture</li>
+        <li>CSCD 726	Next Generation Wireless Systems and Networks</li>
+        <li>CSCD 716	New Directions in Artificial Intelligence</li>
+        <li>CSCD 728	Research Issues in Social Networks</li>
+        <li>CSCD 732	Advances in High Performance Computing</li>
+        <li>FASC 710	Teaching Science at the Tertiary Level</li>
+      </ul>
+  </div>
+  <button class="collapsible">Year 2</button>
+  <div class="content">
+    <h3>First Semester</h3>
+    <ul><li>CSCD 720	Seminar II (Experiential research learning)</li></ul>
+</div>
+  <button class="collapsible">Year 3</button>
+    <div class="content">
+      <h3>First Semester</h3>
+      <ul>
+      <li>CSCD 730	Seminar III (Research progress)</li>
+    </ul>
+    </div>
+
+  <button class="collapsible">Year 4</button>
+  <div class="content">
+      <h3>Second Semester</h3>
+      <ul>
+        <li>CSCD 740	Seminar IV (Research Results)</li>
+        <li>CSCD 700	PhD Thesis</li>
+      </ul>
+    </div>
+  
+    </div>
+  </div>
+  </div>
+
+<div class="cssect">
+  <img src="RProf.jpg" alt="old guy speaking" width="400" class="aboutimg">
+
+</main>
+
+<script src="collapsible.js"></script>
 
 <footer>
   <div class="Admissions">
-    <p><img src="school_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="17"><strong>Admissions</strong></p>
+    <p><img src="school_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="17" class="regicons"><strong>Admissions</strong></p>
     <ul>
       <li><a href="http://admission.ug.edu.gh/applying/undergraduate/overview">Undergraduate</a></li>
       <li><a href="http://admission.ug.edu.gh/applying/postgraduate/overview">Graduate</a></li>
@@ -117,7 +195,7 @@
   </div>
 
   <div class="Research">
-    <p><img src="biotech_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="" width="17"><strong>Research</strong></p>
+    <p><img src="biotech_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="" width="17" class="regicons"><strong>Research</strong></p>
     <ul>
       <li><a href="https://dcs.ug.edu.gh/research-dcs">Research at DCS</a></li>
       <li><a href="https://dcs.ug.edu.gh/research-impact">Research Impact</a></li>
@@ -126,7 +204,7 @@
   </div>
 
   <div class="ContactUs">
-  <p><img src="support_agent_FILL0_wght400_GRAD0_opsz24.svg" alt="contact us" width="17"><strong>Contact us</strong></p>
+  <p><img src="support_agent_FILL0_wght400_GRAD0_opsz24.svg" alt="contact us" width="17" class="regicons"><strong>Contact us</strong></p>
   <ul>
     <li>+233 501 382 035</li>
     <li>+233 559 145 698</li>
@@ -135,7 +213,7 @@
 </div>
 
   <div class="location">
-    <p><img src="map_FILL0_wght400_GRAD0_opsz24.svg" alt="map" width="17"><strong>Location</strong></p>
+    <p><img src="map_FILL0_wght400_GRAD0_opsz24.svg" alt="map" width="17" class="regicons"><strong>Location</strong></p>
     <p><a href="https://maps.app.goo.gl/QpFy8C79aU74Tmjc7" class="maplink">University of Ghana, Legon<br>Campus<br>Opposite Mathematics Department</a></p>
   </div>
 
