@@ -350,7 +350,7 @@ h1 {
 }
 
 .scname:hover{
-  background-color: #bd9d6c;
+  background-color: #153d6f;
   cursor: pointer;
 }
 
@@ -450,10 +450,37 @@ main {
 .ourorgtxt,.ourcomtxt,.dislearntxt,.buildingourtxt{
   text-align: justify;
   padding: 40px;
-  line-height: 1.6;
+  line-height: 2.0;
 }
 
 .aboutvid{
   border-radius: 8px;
 }
+
+.shortcp{
+  display: inline-flex;
+}
+
+.regicons{
+  background-color: white;
+  border-radius: 8px;
+  padding: 2px;
+}
+
+.register{
+  padding: 15px;
+  background: none;
+  color: white;
+  border-radius: 8px;
+  outline-style: groove;
+  outline-color: white;
+}
+
+.register:hover{
+  background-color: #153d6f;
+  cursor: pointer;
+  color: white;
+}
+
+
 
