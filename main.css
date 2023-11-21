@@ -577,3 +577,22 @@ main {
 h1{
   text-align: center;
 }
+
+object{
+  border-radius: 8px;
+  background: none;
+  outline-style: groove;
+  outline-color: white;
+}
+
+.upcoming{
+  background-color: #bd9c6c;
+  outline-style: groove;
+  outline-color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.upcoming:hover{
+  background-color: #153d6f;
+}
