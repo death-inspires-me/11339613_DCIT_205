@@ -152,18 +152,26 @@ html{
 
 .facebooklogo{
   outline: none;
-  margin: 0;
   position: fixed;
   right: 50px;
   top: 40px;
+  background: none;
 }
 
 .twitterlogo{
   outline: none;
-  margin: 0;
   position: fixed;
   right: 100px;
   top: 40px;
+  background: none;
+}
+
+.instalogo{
+  outline: none;
+  position: fixed;
+  right: 150px;
+  top: 40px;
+  background: none;
 }
 
 button{
@@ -388,7 +396,7 @@ footer{
 a:link{
   margin-top: 50px;
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:visited{
@@ -595,4 +603,11 @@ object{
 
 .upcoming:hover{
   background-color: #153d6f;
+}
+
+.pe{
+  border-radius: 8px;
+  margin: 20px;
+  outline-color: white;
+  outline-style: groove;
 }
