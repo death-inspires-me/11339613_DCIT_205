@@ -380,6 +380,7 @@ h1 {
 
 
 footer{
+  margin-top: 20px;
   margin-left: 200px;
   margin-bottom: 100px;
   backdrop-filter: blur(10px);
@@ -611,3 +612,4 @@ object{
   outline-color: white;
   outline-style: groove;
 }
+
