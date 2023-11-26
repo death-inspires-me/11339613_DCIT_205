@@ -4,9 +4,16 @@ NANA ESSENEY MEWIEDELA YENTUMEY
 11339613
 DCIT205 IA DOCUMENTATION
 
-Introduction and Purpose
-Welcome to my repository for the University of Ghana Computer Science Department website. This project aims to provide a robust and user-friendly online platform tailored to meet the unique needs of both students and faculty members within the department.
-The primary objective of this codebase is to create a dynamic and interactive website that serves as a central hub for information, communication, and collaboration within the Computer Science Department at the University of Ghana. From academic resources to departmental announcements, event calendars, and timetables for various levels, this website is designed to streamline communication channels and enhance the overall experience for both students and faculty.
+#Introduction and Purpose
+
+Welcome to my repository for the University of Ghana Computer Science Department website. 
+
+This project aims to provide a robust and user-friendly online platform tailored to meet the unique needs of both students and faculty members within the department.
+
+The primary objective of this codebase is to create a dynamic and interactive website that serves as a central hub for information, communication, and collaboration within the Computer Science Department at the University of Ghana. 
+
+From academic resources to departmental announcements, event calendars, and timetables for various levels, this website is designed to streamline communication channels and enhance the overall experience for both students and faculty.
+
 Key Features
 •	Dynamic Home Page: Get easy access to all the most important parts of the website right on the homepage.
 •	About: Get useful information about the department and its components to help you make an informed decision in anything regarding joining or participating in the activities of the department.
@@ -16,8 +23,20 @@ Key Features
 •	Student timetables: Get easy access to the class timetables of department members as well as the general academic calendar to help you plan out your year properly.
 
 
-How to clone and set up the project.
-The site consists of ten HTML webpages:
+#How to clone and set up the project:
+
+Step 1: Visit https://github.com/death-inspires-me/11339613_DCIT_205
+
+Step 2: Click the "Code" button
+
+Step 3: Copy the link provided in the pop up menu
+
+Step 4: Open your git bash and type in the command "git clone *url copied* *folder you want to clone the repository into*"
+
+You can also choose to download the zip folder from the pop up menu and extract it's contents into the folder of your choice.
+
+
+My project consists of ten HTML webpages:
 
 1.	Home
 2.	About
@@ -90,7 +109,7 @@ JavaScript code is added in the header.js file to make the header stick to the t
 
 3.	The Body
 
-The body of the home page has a looped silent video (with a <video> tag and an id “myVideo” for a background. 
+The body of the home page has a looped silent video (with a <video> tag and an id “myVideo” for a background). 
 
 The video is given a few properties to make sure it displays under the whole page and a z-index value of –1 to make it appear only below every other component of the page no matter what.
 
@@ -119,52 +138,17 @@ Other Important Information
 •	The collapsible lists used in the undergraduate, MPhil, and PhD pages are buttons (with class “collapsible”) within divs connected to unordered lists also within divs (with a class “content”).
 
 •	Each page with a collapsible list button is linked to the collapsible.js file using the <script> tag which contains JavaScript code that makes the list appear on-click based on the length of the list and number of list items to make sure every item in the list appears fully.
-
-
-Screenshots
-1.	Home page
-       
-
-
-2.	About Page
-
-     
-
-
- 3. Programmes Offered
-
-  
-
-4. Short Courses page
-
- 
-
-
-5.	Undergraduate courses page
-    
-
-
-6.	MPhil/MSc courses page
-
-  
-
-  
-
-7.	PhD programmes page
-
    
+#What i learned:
 
-8.	School and Class timetables Page
+I improved my knowledge of front-end technologies and obtained insightful knowledge about web development. 
 
-  
+I learned the value of semantic markup for accessibility and SEO while creating the HTML structure, and CSS helped me improve the sites' appearance and organisation. 
 
-9.	Department events page
+By using JavaScript, dynamic functionalities were made available, enhancing user interactions. 
 
-  
+Whenever I ran across difficulties with responsive design and cross-browser compatibility, debugging and problem-solving became second nature to me. 
 
-10.	Resources page
-   
+The project placed a strong emphasis on the value of collaborative workflow, organised code, and efficiency. 
 
-
-
-I improved my knowledge of front-end technologies and obtained insightful knowledge about web development. I learned the value of semantic markup for accessibility and SEO while creating the HTML structure, and CSS helped me improve the sites' appearance and organisation. By using JavaScript, dynamic functionalities were made available, enhancing user interactions. When I ran across difficulties with responsive design and cross-browser compatibility, debugging and problem-solving became second nature to me. The project placed a strong emphasis on the value of collaborative workflow, organised code, and efficiency. All in all, this experience broadened my knowledge of web development concepts, building a strong basis for upcoming work and enhancing my ability to design interesting and useful websites.
+In summary, this experience broadened my knowledge of web development concepts, building a strong basis for upcoming work and enhancing my ability to design interesting and useful websites.
