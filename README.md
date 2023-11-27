@@ -4,7 +4,7 @@ NANA ESSENEY MEWIEDELA YENTUMEY
 11339613
 DCIT205 IA DOCUMENTATION
 
-"hr"
+<hr>
 
 #INTRODUCTION AND PURPOSE
 
@@ -16,7 +16,7 @@ The primary objective of this codebase is to create a dynamic and interactive we
 
 From academic resources to departmental announcements, event calendars, and timetables for various levels, this website is designed to streamline communication channels and enhance the overall experience for both students and faculty.
 
-"hr"
+<hr>
 
 KEY FEATURES
 
@@ -32,7 +32,7 @@ KEY FEATURES
 
 •	Student timetables: Get easy access to the class timetables of department members as well as the general academic calendar to help you plan out your year properly.
 
-"hr"
+<hr>
 
 #HOW TO CLONE AND SET UP THE PROJECT:
 
@@ -46,7 +46,7 @@ Step 4: Open your git bash and type in the command "git clone (url copied) (fold
 
 You can also choose to download the zip folder from the pop up menu and extract it's contents into the folder of your choice.
 
-"hr"
+<hr>
 
 My project consists of ten HTML webpages:
 
@@ -84,7 +84,7 @@ All HTML files are linked to main.css and header.js in the head section for styl
 
 All files except home.html have a style element in the head section that determines the page background and behaviour in CSS.
 
-"hr"
+<hr>
 
 BASIC STRUCTURE:
 
@@ -113,7 +113,7 @@ The resources for all styling choices such as images, videos, and icons (which c
 
 Logos and icons used were mostly sourced from https://fonts.google.com/icons.
 
-"hr"
+<hr>
 
 1.	THE NAVIGATION BAR
 
@@ -155,7 +155,7 @@ The styling for the background of other pages is in the head section of their HT
 
 The various main sections of each page are placed within a "main" element which is styled with an outline and a blurry backdrop.
 
-An "hr" element is added in some cases to distinguish between sub-sections within the main sections.  
+An <hr> element is added in some cases to distinguish between sub-sections within the main sections.  
 
 Sections within which elements are to be displayed side-by-side are usually given a display: inline-flex; property or a float: left/right; property to make the positioning of the elements less manual although manual adjustments are needed in some cases.
 
