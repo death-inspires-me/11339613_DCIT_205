@@ -155,47 +155,57 @@ Other Important Information
 
 2.	About Page
 
-![Screenshot of homepage](/Screenshots/ss%20about%201.png)
-![Screenshot of homepage](/Screenshots/ss%20about%202.png)
-![Screenshot of homepage](/Screenshots/ss%20about%203.png)
-![Screenshot of homepage](/Screenshots/ss%20about%204.png)
-![Screenshot of homepage](/Screenshots/ss%20about%205.png)
+![Screenshot of about page](/Screenshots/ss%20about%201.png)
+![Screenshot of about page](/Screenshots/ss%20about%202.png)
+![Screenshot of about page](/Screenshots/ss%20about%203.png)
+![Screenshot of about page](/Screenshots/ss%20about%204.png)
+![Screenshot of about page](/Screenshots/ss%20about%205.png)
 
 
  3. Programmes Offered
 
-  ![Screenshot of homepage](/Screenshots/ss%20program%201.png)
-  ![Screenshot of homepage](/Screenshots/ss%20program%202.png)
+  ![Screenshot of programmes page](/Screenshots/ss%20program%201.png)
+  ![Screenshot of programmes page](/Screenshots/ss%20program%202.png)
 
 4. Short Courses page
 
- 
-
+![Screenshot of short courses page](/Screenshots/ss%20shortcourses%201.png)
 
 5.	Undergraduate courses page
     
-
+![Screenshot of undergraduate page](/Screenshots/ss%20undergrad%201.png)
+![Screenshot of undergraduate page](/Screenshots/ss%20undergrad%202.png)
+![Screenshot of undergraduate page](/Screenshots/ss%20undergrad%203.png)
+![Screenshot of undergraduate page](/Screenshots/ss%20undergrad%204.png)
 
 6.	MPhil/MSc courses page
 
-  
-
-  
+![Screenshot of mphil page](/Screenshots/ss%20mphil%201.png)
+![Screenshot of mphil page](/Screenshots/ss%20mphil%202.png)
+![Screenshot of mphil page](/Screenshots/ss%20mphil%203.png)
+![Screenshot of mphil page](/Screenshots/ss%20mphil%204.png)
 
 7.	PhD programmes page
 
-   
+![Screenshot of phd page](/Screenshots/ss%20phd%201.png)
+![Screenshot of phd page](/Screenshots/ss%20phd%202.png) 
+![Screenshot of phd page](/Screenshots/ss%20phd%203.png)  
 
 8.	School and Class timetables Page
 
-  
+![Screenshot of timetables page](/Screenshots/ss%20timetables%201.png) 
+![Screenshot of timetables page](/Screenshots/ss%20timetables%202.png) 
 
 9.	Department events page
 
-  
+![Screenshot of events page](/Screenshots/ss%20department%201.png)
+![Screenshot of events page](/Screenshots/ss%20department%202.png)
+
 
 10.	Resources page
    
+![Screenshot of resources page](/Screenshots/ss%20resources%201.png)
+![Screenshot of resources page](/Screenshots/ss%20resources%202.png)
 
 
 #WHAT I HAVE LEARNED FROM THE PROJECT:
