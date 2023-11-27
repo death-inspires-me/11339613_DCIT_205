@@ -138,8 +138,64 @@ Other Important Information
 •	The collapsible lists used in the undergraduate, MPhil, and PhD pages are buttons (with class “collapsible”) within divs connected to unordered lists also within divs (with a class “content”).
 
 •	Each page with a collapsible list button is linked to the collapsible.js file using the <script> tag which contains JavaScript code that makes the list appear on-click based on the length of the list and number of list items to make sure every item in the list appears fully.
+
+
+#SCREENSHOTS:
+
+1.	Home page
+       
+![Screenshot of homepage](/Screenshots/ss%20home%201.png)
+![Screenshot of homepage](/Screenshots/ss%20home%202.png)
+![Screenshot of homepage](/Screenshots/ss%20home%203.png)
+![Screenshot of homepage](/Screenshots/ss%20home%204.png)
+![Screenshot of homepage](/Screenshots/ss%20home%205.png)
+![Screenshot of homepage](/Screenshots/ss%20home%206.png)
+![Screenshot of homepage](/Screenshots/ss%20home%207.png)
+
+
+2.	About Page
+
+![Screenshot of homepage](/Screenshots/ss%20about%202.png)
+![Screenshot of homepage](/Screenshots/ss%20about%203.png)
+![Screenshot of homepage](/Screenshots/ss%20about%204.png)
+
+
+ 3. Programmes Offered
+
+  
+
+4. Short Courses page
+
+ 
+
+
+5.	Undergraduate courses page
+    
+
+
+6.	MPhil/MSc courses page
+
+  
+
+  
+
+7.	PhD programmes page
+
    
-#What i learned:
+
+8.	School and Class timetables Page
+
+  
+
+9.	Department events page
+
+  
+
+10.	Resources page
+   
+
+
+#WHAT I HAVE LEARNED FROM THE PROJECT:
 
 I improved my knowledge of front-end technologies and obtained insightful knowledge about web development. 
 
