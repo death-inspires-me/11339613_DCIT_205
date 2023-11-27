@@ -155,14 +155,17 @@ Other Important Information
 
 2.	About Page
 
+![Screenshot of homepage](/Screenshots/ss%20about%201.png)
 ![Screenshot of homepage](/Screenshots/ss%20about%202.png)
 ![Screenshot of homepage](/Screenshots/ss%20about%203.png)
 ![Screenshot of homepage](/Screenshots/ss%20about%204.png)
+![Screenshot of homepage](/Screenshots/ss%20about%205.png)
 
 
  3. Programmes Offered
 
-  
+  ![Screenshot of homepage](/Screenshots/ss%20program%201.png)
+  ![Screenshot of homepage](/Screenshots/ss%20program%202.png)
 
 4. Short Courses page
 
