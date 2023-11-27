@@ -4,7 +4,8 @@ NANA ESSENEY MEWIEDELA YENTUMEY
 11339613
 DCIT205 IA DOCUMENTATION
 
-#Introduction and Purpose
+
+#INTRODUCTION AND PURPOSE
 
 Welcome to my repository for the University of Ghana Computer Science Department website. 
 
@@ -14,16 +15,23 @@ The primary objective of this codebase is to create a dynamic and interactive we
 
 From academic resources to departmental announcements, event calendars, and timetables for various levels, this website is designed to streamline communication channels and enhance the overall experience for both students and faculty.
 
-Key Features
+
+KEY FEATURES
+
 •	Dynamic Home Page: Get easy access to all the most important parts of the website right on the homepage.
+
 •	About: Get useful information about the department and its components to help you make an informed decision in anything regarding joining or participating in the activities of the department.
+
 •	Programmes: Get detailed information about the various courses our department has to offer to better decide the kind of future you want for yourself.
+
 •	Resources: Access our social platforms, student handbook, and other educational resources.
+
 •	Event Calendar: Keep track of departmental events, seminars, and important dates.
+
 •	Student timetables: Get easy access to the class timetables of department members as well as the general academic calendar to help you plan out your year properly.
 
 
-#How to clone and set up the project:
+#HOW TO CLONE AND SET UP THE PROJECT:
 
 Step 1: Visit https://github.com/death-inspires-me/11339613_DCIT_205
 
@@ -39,32 +47,50 @@ You can also choose to download the zip folder from the pop up menu and extract 
 My project consists of ten HTML webpages:
 
 1.	Home
+
 2.	About
+
 3.	Programmes Offered
+
 4.	Short Courses
+
 5.	Undergraduate Courses
+
 6.	MPhil/MSc Courses
+
 7.	PhD courses
+
 8.	School and Class Timetables
+
 9.	Department Events
+
 10.	Resources for Department Events
 
 One CSS file:
+
 1.	main.css
 
 Two JS files:
+
 1.	header.js
+
 2.	collapsible.js
 
 All HTML files are linked to main.css and header.js in the head section for styling and the behaviour of the header but only undergraduate.html, phd.html, and mphil.html are linked to collapsible.js for the collapsible lists.
 
 All files except home.html have a style tag in the head section that determines the page background and behaviour in CSS.
 
-Basic Structure:
+
+BASIC STRUCTURE:
+
 Every page consists of four main visible parts:
+
 1.	The navigation bar
+
 2.	The header
+
 3.	The body
+
 4.	The footer
 
 The font-family used throughout the project is “'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;”
@@ -81,7 +107,8 @@ The resources for all styling choices such as images, videos, and icons (which c
 
 Logos and icons used were mostly sourced from https://fonts.google.com/icons.
 
-1.	The Navigation Bar
+
+1.	THE NAVIGATION BAR
 
 The navigation bar is created with the HTML tag <nav> with the class “navbar”.
 
@@ -97,7 +124,8 @@ The hover animation on the navigation bar is done using the transition: property
 
 Finally, each button button on the navigation bar also has tooltip to allow the user to know what the icon does without having to click on it.
 
-2.	The Header
+
+2.	THE HEADER
 
 The header is a div with class “header”.
 
@@ -107,7 +135,8 @@ Everything contained within the header is contained within a div with its own cl
 
 JavaScript code is added in the header.js file to make the header stick to the top when the user scrolls down.
 
-3.	The Body
+
+3.	THE BODY
 
 The body of the home page has a looped silent video (with a <video> tag and an id “myVideo” for a background). 
 
@@ -125,13 +154,15 @@ Sections within which elements are to be displayed side-by-side are usually give
 
 Finally, to create a smoother and more unique feel, most sections with outlines are given rounded corners using the border-radius: 8px; property. 
 
-4.	The footer
+
+4.	THE FOOTER
+
 The footer section which is at the bottom of every page and forms the entirety of the help and support page created using the <footer> tag. It is styled the same as the main sections.
 
 However, it consists of unordered lists (<ul>) of links to various helpful sites placed side by side.
 
 
-Other Important Information
+OTHER IMPORTANT INFO:
 
 •	The PDF files embedded in the home page and on the timetables page are done using the <object> tag with a data attribute giving the source for the file and a type attribute describing the type of file as application/pdf.
 
