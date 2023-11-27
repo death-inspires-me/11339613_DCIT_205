@@ -4,6 +4,7 @@ NANA ESSENEY MEWIEDELA YENTUMEY
 11339613
 DCIT205 IA DOCUMENTATION
 
+"hr"
 
 #INTRODUCTION AND PURPOSE
 
@@ -15,6 +16,7 @@ The primary objective of this codebase is to create a dynamic and interactive we
 
 From academic resources to departmental announcements, event calendars, and timetables for various levels, this website is designed to streamline communication channels and enhance the overall experience for both students and faculty.
 
+"hr"
 
 KEY FEATURES
 
@@ -30,6 +32,7 @@ KEY FEATURES
 
 •	Student timetables: Get easy access to the class timetables of department members as well as the general academic calendar to help you plan out your year properly.
 
+"hr"
 
 #HOW TO CLONE AND SET UP THE PROJECT:
 
@@ -39,10 +42,11 @@ Step 2: Click the "Code" button
 
 Step 3: Copy the link provided in the pop up menu
 
-Step 4: Open your git bash and type in the command "git clone *url copied* *folder you want to clone the repository into*"
+Step 4: Open your git bash and type in the command "git clone (url copied) (folder you want to clone the repository into)"
 
 You can also choose to download the zip folder from the pop up menu and extract it's contents into the folder of your choice.
 
+"hr"
 
 My project consists of ten HTML webpages:
 
@@ -78,8 +82,9 @@ Two JS files:
 
 All HTML files are linked to main.css and header.js in the head section for styling and the behaviour of the header but only undergraduate.html, phd.html, and mphil.html are linked to collapsible.js for the collapsible lists.
 
-All files except home.html have a style tag in the head section that determines the page background and behaviour in CSS.
+All files except home.html have a style element in the head section that determines the page background and behaviour in CSS.
 
+"hr"
 
 BASIC STRUCTURE:
 
@@ -93,13 +98,14 @@ Every page consists of four main visible parts:
 
 4.	The footer
 
+
 The font-family used throughout the project is “'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;”
 
 The scroll bar of every page is also styled with a minimalistic blue bar using the body::webkit-scrollbar embedded class in CSS.
 
 The thematic colours of the whole site are white, #153d6f, and #bd9c6c.
 
-I also included a stylistic choice of background blurs and rounded corners for media and outlined sections for various <div> and <main> tags within the code base to add a modern feel to the page. The CSS properties that make that possible are “backdrop-filter: blur(10px);” and “border-radius: 8px”.
+I also included a stylistic choice of background blurs and rounded corners for media and outlined sections for various "div" and "main" elements within the code base to add a modern feel to the page. The CSS properties that make that possible are “backdrop-filter: blur(10px);” and “border-radius: 8px”.
 
 You will also find many sections given a white outline with the outline-style: groove. This is to provide a proper distinction between different parts of the page and enhance visibility since all the sections with blurry backdrop filters have no background or in CSS: background: none;
 
@@ -107,16 +113,17 @@ The resources for all styling choices such as images, videos, and icons (which c
 
 Logos and icons used were mostly sourced from https://fonts.google.com/icons.
 
+"hr"
 
 1.	THE NAVIGATION BAR
 
-The navigation bar is created with the HTML tag <nav> with the class “navbar”.
+The navigation bar is created with the HTML element "nav" with the class “navbar”.
 
 Each button on the navigation bar is a list item (with class “nav-item”) within an unordered list (with class “navbar-nav”).
 
 This includes the school logo (with class “logo”) at the very top which is just an image link to the university’s main website rather than an actual button.
 
-Every <button> is within a <div> and every button ends with a <span> tag that gives each button a tooltip that describes what the button is for to the user on the webpage.
+Every "button" element is within a "div" element and every button ends with a "span" element that gives each button a tooltip that describes what the button is for to the user on the webpage.
 
 The navbar class is given a transition property for a small animation when it’s hovered upon and a z-index property with a value of 100 to make sure it appears above everything else on the webpage no matter what. 
 
@@ -138,7 +145,7 @@ JavaScript code is added in the header.js file to make the header stick to the t
 
 3.	THE BODY
 
-The body of the home page has a looped silent video (with a <video> tag and an id “myVideo” for a background). 
+The body of the home page has a looped silent video (with a video" element and an id “myVideo” for a background). 
 
 The video is given a few properties to make sure it displays under the whole page and a z-index value of –1 to make it appear only below every other component of the page no matter what.
 
@@ -146,9 +153,9 @@ All other pages apart from the homepage have a static image for a background usi
 
 The styling for the background of other pages is in the head section of their HTML script.
 
-The various main sections of each page are placed within a <main> tag which is styled with an outline and a blurry backdrop.
+The various main sections of each page are placed within a "main" element which is styled with an outline and a blurry backdrop.
 
-An <hr> tag is added in some cases to distinguish between sub-sections within the main sections.  
+An "hr" element is added in some cases to distinguish between sub-sections within the main sections.  
 
 Sections within which elements are to be displayed side-by-side are usually given a display: inline-flex; property or a float: left/right; property to make the positioning of the elements less manual although manual adjustments are needed in some cases.
 
@@ -157,19 +164,21 @@ Finally, to create a smoother and more unique feel, most sections with outlines 
 
 4.	THE FOOTER
 
-The footer section which is at the bottom of every page and forms the entirety of the help and support page created using the <footer> tag. It is styled the same as the main sections.
+The footer section which is at the bottom of every page and forms the entirety of the help and support page created using the "footer" element. It is styled the same as the main sections.
 
-However, it consists of unordered lists (<ul>) of links to various helpful sites placed side by side.
+However, it consists of unordered lists ("ul") of links to various helpful sites placed side by side.
 
+<hr>
 
 OTHER IMPORTANT INFO:
 
-•	The PDF files embedded in the home page and on the timetables page are done using the <object> tag with a data attribute giving the source for the file and a type attribute describing the type of file as application/pdf.
+•	The PDF files embedded in the home page and on the timetables page are done using the "object" element with a data attribute giving the source for the file and a type attribute describing the type of file as application/pdf.
 
 •	The collapsible lists used in the undergraduate, MPhil, and PhD pages are buttons (with class “collapsible”) within divs connected to unordered lists also within divs (with a class “content”).
 
-•	Each page with a collapsible list button is linked to the collapsible.js file using the <script> tag which contains JavaScript code that makes the list appear on-click based on the length of the list and number of list items to make sure every item in the list appears fully.
+•	Each page with a collapsible list button is linked to the collapsible.js file using the "script" element which contains JavaScript code that makes the list appear on-click based on the length of the list and number of list items to make sure every item in the list appears fully.
 
+<hr>
 
 #SCREENSHOTS:
 
@@ -238,14 +247,15 @@ OTHER IMPORTANT INFO:
 ![Screenshot of resources page](/Screenshots/ss%20resources%201.png)
 ![Screenshot of resources page](/Screenshots/ss%20resources%202.png)
 
+<hr>
 
 #WHAT I HAVE LEARNED FROM THE PROJECT:
 
 I improved my knowledge of front-end technologies and obtained insightful knowledge about web development. 
 
-I learned the value of semantic markup for accessibility and SEO while creating the HTML structure, and CSS helped me improve the sites' appearance and organisation. 
+I also learned the value of semantic markup for accessibility and SEO while creating the HTML structure, and CSS helped me improve the sites' appearance and organisation. 
 
-By using JavaScript, dynamic functionalities were made available, enhancing user interactions. 
+By using JavaScript, i gained knowledge of how to add dynamic functionalities to for enhancing user interactions of a webpage. 
 
 Whenever I ran across difficulties with responsive design and cross-browser compatibility, debugging and problem-solving became second nature to me. 
 
